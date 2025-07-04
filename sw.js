@@ -1,4 +1,4 @@
-const CACHE_NAME = 'splitease-cache-v3'; // Version bumped to trigger update
+const CACHE_NAME = 'splitease-cache-v2'; // Version bumped to trigger update
 const URLS_TO_CACHE = [
   '/',
   '/index.html',
@@ -16,6 +16,7 @@ const URLS_TO_CACHE = [
   'https://esm.sh/react@^19.1.0',
   'https://esm.sh/react-dom@^19.1.0/client',
   'https://esm.sh/react@^19.1.0/jsx-runtime',
+  'https://esm.sh/@google/genai',
   'https://esm.sh/xlsx'
 ];
 
